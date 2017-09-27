@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--从图片正中心开始旋转，360度-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="360">
+    <shape
+        android:shape="ring"
+        android:innerRadiusRatio="3"
+        android:useLevel="false">
+        <gradient
+            android:centerColor="#e364e7"
+            android:startColor="#60aaea"
+            android:endColor="#3093ea"
+            android:type="sweep"/>
+
+    </shape>
+</rotate>
+    <!--innerRadiusRatio内环的半径,等于环的宽度除以5，默认为9-->
